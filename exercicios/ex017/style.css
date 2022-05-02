@@ -1,0 +1,51 @@
+body {
+    font-family:'Times New Roman', Times, serif;
+    font-size: 16px;
+    /* Medidas absolutas
+    cm = centimétros
+    mm = milimétros
+    in = polegadas
+    px = pixels
+    pt = ponto
+    pc = paica
+
+    Medidas relativas
+    em = relativa ao tamanho atual da fonte
+    ex = relativa a altura x de uma fonte
+    rem= relativo ao rut, a medida que está relacionada no body
+    vw = view width, relativa ao tamanho da sa tela
+     */
+     background-image: linear-gradient(to right, #6e4ed96d, #4D3A8C );
+     font-weight: 100; /* referente ao peso da fonte, lighter normal bold bolder*/
+     /* width = referente a largura
+       height = referente a altura*/
+     /*font-style: italic;
+     text-decoration: underline;*/
+    
+}
+main {
+    background-color: whitesmoke;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #3F3F41 ;
+    width: 600px;
+    padding: 10px;
+    margin: auto;
+    text-align: center;
+
+}
+h1 {
+   /* font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 3em;
+    font-style: italic;*/
+    /* shorthand font
+    -font-style -> font-weight -> font-size-> font-family */
+    font: italic bold 3em 'a Arial, Helvetica, sans-serif;';
+ 
+}
+h2 {
+    font: italic 1.5em 'serif';
+}
+p {
+    text-align: justify;
+}
