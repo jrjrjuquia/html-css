@@ -6,6 +6,7 @@ body {
 table {
     border: 5px solid black;
     border-collapse: separate;
+    position: relative;
 }
 caption{
     font-size: 1.5em;
@@ -18,6 +19,11 @@ caption{
 thead {
     background-color: grey;
     color: white;
+}
+thead > tr > th{
+    position: sticky;
+    top: 0;
+    background-color: grey;
 }
 /* tbody > tr:nth-child(2n) {dessa forma ele pula uma e marca a proxima
     background-color: lightgrey;
