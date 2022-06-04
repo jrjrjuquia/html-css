@@ -1,18 +1,38 @@
 @charset "UTF-8";
 body {
     font-family: Arial, Helvetica, sans-serif;
+    width: 500px;
 }
 table {
     border: 5px solid black;
-    border-collapse: collapse;
+    border-collapse: separate;
+}
+caption{
+    font-size: 1.5em;
+    font-weight: bold;
+    color: white;
+    padding: 10px;
+    background-color: grey;
+    border: 5px solid black;
 }
 thead {
     background-color: grey;
     color: white;
 }
+/* tbody > tr:nth-child(2n) {dessa forma ele pula uma e marca a proxima
+    background-color: lightgrey;
+}*/
+tbody > tr:nth-child(odd){ /*{dessa forma marca as impar*/
+    background-color: white;
+    font-weight: bold;
+}    
+tbody > tr:nth-child(even){/* {dessa forma ele marca as pares*/
+        background-color:lightgrey;
+        font-weight:lighter;
+}
 th {
     text-align: center;
-    border: 5px solid black;
+    border: 3px solid black;
     padding: 10px;
 }
 td {
